@@ -12,8 +12,6 @@ threshold = -1
 weight0_n = 0
 weight1_n = 0
 
-
-
 while True:
     net[0] = input_arr[0].dot(weight_arr)
     net[1] = input_arr[1].dot(weight_arr)
